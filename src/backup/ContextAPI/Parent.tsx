@@ -1,11 +1,11 @@
-import Child from './Child'
+// import Child from './Child'
 
-const Parent = () => {
-  return (
-    <>
-      <Child />
-    </>
-  )
-}
+// const Parent = () => {
+//   return (
+//     <>
+//       <Child />
+//     </>
+//   )
+// }
 
-export default Parent
+// export default Parent
