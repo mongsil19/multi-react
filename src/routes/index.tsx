@@ -8,6 +8,7 @@ import NotFound from './pages/NotFound'
 import SignIn from '@/routes/pages/SignIn'
 import { requiresAuth } from './loaders/requiresAuth'
 import { onlyGuset } from './loaders/onlyGuest'
+import Todos from './pages/Todos'
 const router = createBrowserRouter([
   //Route객체
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
         path: '/signin',
         loader: onlyGuset,
         element: <SignIn />
+      },
+      {
+        path: '/todos',
+        element: <Todos />
       }
     ]
   },
